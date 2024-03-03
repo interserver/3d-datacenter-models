@@ -1,0 +1,798 @@
+; FBX 7.3.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7300
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2024
+		Month: 3
+		Day: 3
+		Hour: 1
+		Minute: 19
+		Second: 27
+		Millisecond: 380
+	}
+	Creator: "FBX SDK/FBX Plugins version 2013.3"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: "Rui"
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", ""
+			P: "Original|ApplicationVersion", "KString", "", "", ""
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", ""
+			P: "LastSaved|ApplicationVersion", "KString", "", "", ""
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",2
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",1
+		P: "FrontAxisSign", "int", "Integer", "",-1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",2.54
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 77002848, "ID2", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+			P: "COLLADA_ID", "KString", "", "", "ID2"
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 22
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 6
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 1
+		PropertyTemplate: "FbxCamera" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Position", "Vector", "", "A",0,0,-50
+				P: "UpVector", "Vector", "", "A",0,1,0
+				P: "InterestPosition", "Vector", "", "A",0,0,0
+				P: "Roll", "Roll", "", "A",0
+				P: "OpticalCenterX", "OpticalCenterX", "", "A",0
+				P: "OpticalCenterY", "OpticalCenterY", "", "A",0
+				P: "BackgroundColor", "Color", "", "A",0.63,0.63,0.63
+				P: "TurnTable", "Number", "", "A",0
+				P: "DisplayTurnTableIcon", "bool", "", "",0
+				P: "UseMotionBlur", "bool", "", "",0
+				P: "UseRealTimeMotionBlur", "bool", "", "",1
+				P: "Motion Blur Intensity", "Number", "", "A",1
+				P: "AspectRatioMode", "enum", "", "",0
+				P: "AspectWidth", "double", "Number", "",320
+				P: "AspectHeight", "double", "Number", "",200
+				P: "PixelAspectRatio", "double", "Number", "",1
+				P: "FilmOffsetX", "Number", "", "A",0
+				P: "FilmOffsetY", "Number", "", "A",0
+				P: "FilmWidth", "double", "Number", "",0.816
+				P: "FilmHeight", "double", "Number", "",0.612
+				P: "FilmAspectRatio", "double", "Number", "",1.33333333333333
+				P: "FilmSqueezeRatio", "double", "Number", "",1
+				P: "FilmFormatIndex", "enum", "", "",0
+				P: "PreScale", "Number", "", "A",1
+				P: "FilmTranslateX", "Number", "", "A",0
+				P: "FilmTranslateY", "Number", "", "A",0
+				P: "FilmRollPivotX", "Number", "", "A",0
+				P: "FilmRollPivotY", "Number", "", "A",0
+				P: "FilmRollValue", "Number", "", "A",0
+				P: "FilmRollOrder", "enum", "", "",0
+				P: "ApertureMode", "enum", "", "",2
+				P: "GateFit", "enum", "", "",0
+				P: "FieldOfView", "FieldOfView", "", "A",25.1149997711182
+				P: "FieldOfViewX", "FieldOfViewX", "", "A",40
+				P: "FieldOfViewY", "FieldOfViewY", "", "A",40
+				P: "FocalLength", "Number", "", "A",34.8932762167263
+				P: "CameraFormat", "enum", "", "",0
+				P: "UseFrameColor", "bool", "", "",0
+				P: "FrameColor", "ColorRGB", "Color", "",0.3,0.3,0.3
+				P: "ShowName", "bool", "", "",1
+				P: "ShowInfoOnMoving", "bool", "", "",1
+				P: "ShowGrid", "bool", "", "",1
+				P: "ShowOpticalCenter", "bool", "", "",0
+				P: "ShowAzimut", "bool", "", "",1
+				P: "ShowTimeCode", "bool", "", "",0
+				P: "ShowAudio", "bool", "", "",0
+				P: "AudioColor", "Vector3D", "Vector", "",0,1,0
+				P: "NearPlane", "double", "Number", "",10
+				P: "FarPlane", "double", "Number", "",4000
+				P: "AutoComputeClipPanes", "bool", "", "",0
+				P: "ViewCameraToLookAt", "bool", "", "",1
+				P: "ViewFrustumNearFarPlane", "bool", "", "",0
+				P: "ViewFrustumBackPlaneMode", "enum", "", "",2
+				P: "BackPlaneDistance", "Number", "", "A",4000
+				P: "BackPlaneDistanceMode", "enum", "", "",1
+				P: "ViewFrustumFrontPlaneMode", "enum", "", "",2
+				P: "FrontPlaneDistance", "Number", "", "A",10
+				P: "FrontPlaneDistanceMode", "enum", "", "",1
+				P: "LockMode", "bool", "", "",0
+				P: "LockInterestNavigation", "bool", "", "",0
+				P: "BackPlateFitImage", "bool", "", "",0
+				P: "BackPlateCrop", "bool", "", "",0
+				P: "BackPlateCenter", "bool", "", "",1
+				P: "BackPlateKeepRatio", "bool", "", "",1
+				P: "BackgroundAlphaTreshold", "double", "Number", "",0.5
+				P: "ShowBackplate", "bool", "", "",1
+				P: "BackPlaneOffsetX", "Number", "", "A",0
+				P: "BackPlaneOffsetY", "Number", "", "A",0
+				P: "BackPlaneRotation", "Number", "", "A",0
+				P: "BackPlaneScaleX", "Number", "", "A",1
+				P: "BackPlaneScaleY", "Number", "", "A",1
+				P: "Background Texture", "object", "", ""
+				P: "FrontPlateFitImage", "bool", "", "",1
+				P: "FrontPlateCrop", "bool", "", "",0
+				P: "FrontPlateCenter", "bool", "", "",1
+				P: "FrontPlateKeepRatio", "bool", "", "",1
+				P: "Foreground Opacity", "double", "Number", "",1
+				P: "ShowFrontplate", "bool", "", "",1
+				P: "FrontPlaneOffsetX", "Number", "", "A",0
+				P: "FrontPlaneOffsetY", "Number", "", "A",0
+				P: "FrontPlaneRotation", "Number", "", "A",0
+				P: "FrontPlaneScaleX", "Number", "", "A",1
+				P: "FrontPlaneScaleY", "Number", "", "A",1
+				P: "Foreground Texture", "object", "", ""
+				P: "DisplaySafeArea", "bool", "", "",0
+				P: "DisplaySafeAreaOnRender", "bool", "", "",0
+				P: "SafeAreaDisplayStyle", "enum", "", "",1
+				P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+				P: "Use2DMagnifierZoom", "bool", "", "",0
+				P: "2D Magnifier Zoom", "Number", "", "A",100
+				P: "2D Magnifier X", "Number", "", "A",50
+				P: "2D Magnifier Y", "Number", "", "A",50
+				P: "CameraProjectionType", "enum", "", "",0
+				P: "OrthoZoom", "double", "Number", "",1
+				P: "UseRealTimeDOFAndAA", "bool", "", "",0
+				P: "UseDepthOfField", "bool", "", "",0
+				P: "FocusSource", "enum", "", "",0
+				P: "FocusAngle", "double", "Number", "",3.5
+				P: "FocusDistance", "double", "Number", "",200
+				P: "UseAntialiasing", "bool", "", "",0
+				P: "AntialiasingIntensity", "double", "Number", "",0.77777
+				P: "AntialiasingMethod", "enum", "", "",0
+				P: "UseAccumulationBuffer", "bool", "", "",0
+				P: "FrameSamplingCount", "int", "Integer", "",7
+				P: "FrameSamplingType", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 4
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 4
+		PropertyTemplate: "FbxLine" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+				P: "Renderable", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 2
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 2
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "InterlaceMode", "enum", "", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 77457104, "NodeAttribute::skp_camera_Last_Saved_SketchUp_View", "Camera" {
+		Properties70:  {
+			P: "InterestPosition", "Vector", "", "A",0,0,-1
+			P: "AspectHeight", "double", "Number", "",1.#INF
+			P: "FilmWidth", "double", "Number", "",0.0001
+			P: "FilmAspectRatio", "double", "Number", "",0.000163398692810458
+			P: "FieldOfView", "FieldOfView", "", "A",35
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",1000
+			P: "FocusDistance", "double", "Number", "",5
+			P: "COLLADA_ID", "KString", "", "", "ID1"
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,0,-50
+		Up: 0,1,0
+		LookAt: 0,0,-1
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	Geometry: 77608864, "Geometry::ID4", "Line" {
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID4"
+		}
+		GeometryVersion: 124
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+		}
+		Type: "Line"
+		LineVersion: 100
+		Points: *144 {
+			a: 17.75,0,1.75,0,5.2,1.75,0,0,1.75,17.75,5.2,1.75,17.75,5.2,1.75,17.75,0,1.75,0,5.2,1.75,0,0,1.75,17.75,5.2,1.75,17.75,0,1.75,0,5.2,1.75,0,0,1.75,17.75,5.2,0,17.75,0,1.75,17.75,0,0,17.75,5.2,1.75,17.75,5.2,1.75,17.75,5.2,0,17.75,0,1.75,17.75,0,0,17.75,5.2,0,17.75,0,0,0,5.2,1.75,0,0,0,0,0,1.75,0,5.2,0,0,5.2,0,0,5.2,1.75,0,0,0,0,0,1.75,0,0,0,0,5.2,0,17.75,0,1.75,0,0,0,17.75,0,0,0,0,1.75,0,0,1.75,17.75,0,1.75,0,0,0,17.75,0,0,17.75,5.2,0,0,0,0,0,5.2,0,17.75,0,0,17.75,0,0,17.75,5.2,0,0,0,0,0,5.2,0
+		} 
+		PointsIndex: *24 {
+			a: 8,-10,10,-9,11,-11,9,-12,20,-22,20,-9,21,-10,30,-32,30,-12,31,-11,21,-31,31,-21
+		} 
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID4"
+		}
+	}
+	Geometry: 77622544, "Geometry::ID16", "Line" {
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID16"
+		}
+		GeometryVersion: 124
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+		}
+		Type: "Line"
+		LineVersion: 100
+		Points: *36 {
+			a: 0,5.2,1.75,17.75,5.2,0,0,5.2,0,17.75,5.2,1.75,17.75,5.2,1.75,0,5.2,1.75,17.75,5.2,0,0,5.2,0,0,5.2,0,17.75,5.2,0,0,5.2,1.75,17.75,5.2,1.75
+		} 
+		PointsIndex: *7 {
+			a: 8,-10,8,10,-12,9,-12
+		} 
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID16"
+		}
+	}
+	Geometry: 77634816, "Geometry::ID32", "Line" {
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID32"
+		}
+		GeometryVersion: 124
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+		}
+		Type: "Line"
+		LineVersion: 100
+		Points: *228 {
+			a: 3.552714e-015,0,1.75,19,0.0625,1.75,0,0.0625,1.75,0.625,0,1.75,18.375,0,1.75,19,0,1.75,19,0,1.75,18.375,0,1.75,19,0.0625,1.75,0.625,0,1.75,3.552714e-015,0,1.75,0,0.0625,1.75,0,0.0625,1.75,3.552714e-015,0,1.75,0.625,0,1.75,18.375,0,1.75,19,0,1.75,19,0.0625,1.75,0,0.0625,1.75,3.552714e-015,0,0,3.552714e-015,0,1.75,0,0.0625,0,0,0.0625,0,0,0.0625,1.75,3.552714e-015,0,0,3.552714e-015,0,1.75,0,0.0625,0,3.552714e-015,0,0,0.625,0,1.75,3.552714e-015,0,0,0.625,0,0,3.552714e-015,0,1.75,3.552714e-015,0,1.75,0.625,0,1.75,3.552714e-015,0,0,0.625,0,0,0.625,0,0,19,0,1.75,18.375,0,0,19,0,0,18.375,0,1.75,18.375,0,1.75,19,0,1.75,18.375,0,0,19,0,0,18.375,0,0,19,0,0,19,0.0625,0,19,0,1.75,19,0,0,19,0.0625,1.75,19,0.0625,1.75,19,0.0625,0,19,0,1.75,19,0,0,19,0.0625,0,0,0.0625,1.75,19,0.0625,0,0,0.0625,0,19,0.0625,1.75,19,0.0625,1.75,0,0.0625,1.75,19,0.0625,0,0,0.0625,0,19,0.0625,0,3.552714e-015,0,0,0,0.0625,0,0.625,0,0,18.375,0,0,19,0,0,19,0,0,19,0.0625,0,18.375,0,0,0.625,0,0,3.552714e-015,0,0,0,0.0625,0
+		} 
+		PointsIndex: *27 {
+			a: 12,13,14,15,16,17,-13,26,27,-14,26,-13,27,-37,14,-37,15,45,46,-17,46,55,-18,55,-27,36,-46
+		} 
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID32"
+		}
+	}
+	Geometry: 77638880, "Geometry::ID40", "Line" {
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID40"
+		}
+		GeometryVersion: 124
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+		}
+		Type: "Line"
+		LineVersion: 100
+		Points: *36 {
+			a: 18.375,0,1.75,0.625,0,0,18.375,0,0,0.625,0,1.75,0.625,0,1.75,18.375,0,1.75,0.625,0,0,18.375,0,0,0.625,0,0,18.375,0,0,18.375,0,1.75,0.625,0,1.75
+		} 
+		PointsIndex: *8 {
+			a: 8,-10,10,-10,11,-11,11,-9
+		} 
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID40"
+		}
+	}
+	Model: 77562720, "Model::SketchUp", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 77454848, "Model::skp_camera_Last_Saved_SketchUp_View", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "PostRotation", "Vector3D", "Vector", "",0,-90,0
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2.809734,-10.89851,4.63172
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",76.0375932609623,-2.3854158625995e-015,-37.9742826147821
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.999999980024145,1.00000004332282,0.999999960854849
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 77605968, "Model::group_0", "Line" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.625,0.0625,0
+			P: "COLLADA_ID", "KString", "", "", "ID3"
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 77618448, "Model::ID16", "Line" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 77632560, "Model::group_1", "Line" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "COLLADA_ID", "KString", "", "", "ID31"
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 77642000, "Model::ID40", "Line" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Material: 77003328, "Material::_0136_Charcoal", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0.1372549,0.1372549,0.1372549
+			P: "COLLADA_ID", "KString", "", "", "ID5"
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.1372549,0.1372549,0.1372549
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 77608224, "Material::edge_color353535255", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "TransparencyFactor", "Number", "", "A",1
+			P: "COLLADA_ID", "KString", "", "", "ID11"
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 77620704, "Material::__", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID17"
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 77635824, "Material::___0", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID41"
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Video: 77293392, "Video::ID19", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\__.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\__.jpg"
+		RelativeFilename: "model\__.jpg"
+		Content: ,
+ "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAuAdoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxLc2epo3H1NIetFAC7m9T+dG5v7xpKKAF3N/eNG5v7xpMUYpiF3N6mlDN/eNJRSAXc3940oZv7xpMUtAC7j/eNBZvU0gopjDc394/nRub1NGKKBBuPqaXc3940lAoGKGb+8aXc3940lFAC7m9T+dG446mkpaAFyfU0m5vU0Ud6AF3H1NG4+po70UCDcfU0uT6miigAyfU0oJ9aTFKKAFyaNxz1ooxQAZ96XNGKKQBn3pcn1pKXFABmjJoopgLniiiigApaKKACiiigAopcUtACdqKWigAooooAKKKMUAFGaMUYoAWiiigBM0ZpaSgYmaM0UUCDNPqOpNw9KQzPbrRQetGKACijFGKYCUuKUDJp4WgBmKOlSgDFNKZ5pANHWg452+lGKuWmmyXcMkqOo2dj3oAz1IKqAH8zJ3E9MVKAuwknntWq2gXCrA3mRfvf9rpVO+snsbtoHZWZcHKnjmiwrlWjtS4ooGJRilxSgUCExS0YpcUAJilxRilxQMQUYpcUuKAEoop2KYhBRilpcUAJRS4oxQAUUuKMUAJRilopAFFLRigAooopjCilAoxzQIKKMUtAwoFFLQISil70UAFGKXFGKAExS0YpaAEoxS0UAJijFLiigBKQ06kxQAlIadSGgYlGaMUUgEp9Np2RSAon71FPZSG7UoU+1MBmKMU/B9qXb9KYhqinYp6rx2pQtIYwc0uKftPtUqQM6lgR1pXAqkDNWtNuIbe7BuVZ7c/fQZ5prQNnqtN8g+q07oDcbVNG2EfY5Dg5Qf3Bjp19cVz0jGR2ckkk9zmpfIPtSeSw7ijmFYgxRip/JPqKPKPqKV0MhxSgVN5Z9RR5Z9qLgQ4pcVMIj7UeWfamBDilxUpjI9KPLPqKVwIsUVLsI9KTZ9KdwI8UuKk8s+1Gw+1FwGYoxUmw+1AjJYKMZJouIjxS04jFGKQxopacBR3pgMpcU/GKMewoAZijFPx+lLt+lAEdLipNn0o2fSi4EdLT9tG3mi4DCKMU8pg9qNuPSi4DMUU/FKBQAzFKBT8UAUwG4pKkxRikIZRincUcUDG4oxTsj0pRgnFFwGUYpxIo4ouA2kIp/4Un4UxDKQ089KTigY2kpxI9KOPSkA2njGKb3p2RQB//9k="
+	}
+	Video: 77294032, "Video::ID43", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\___0.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\___0.jpg"
+		RelativeFilename: "model\___0.jpg"
+		Content: ,
+ "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAtAdkDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxlnO7qaTe3qaRvvGgUxDgx9TTtx9TTRS0ALuPqaUsfU02loEGT6mlyfU0YpdtAw3H1NKGPqaTbRQA7J9TS5PrTRQaAHbj6mkyfU0UGgBcn1NGT60lFAC5PrSZP+TRRigAyfU0uTRS0AHPrS5NAFLQITJ9aMn1NFFAACfWlz7mkFOIoATn1pfxopaAD8aOaKWgBKMmlooAMmjmiigBcmkzRiigAzRk0UYoAMmlyaMUUAFFFLTGFLmgUtACZo5paTFIQZozRilxQMTNGTRRTEFGaKKANXw/Z6ff6qkGpXRt7dgfnBxk9hntXXR+D9Jk1lbIxXscYheTzGlUq+MYwce5/SuI03UbjSrn7RbFBJtK/OoYY+hrUPjTWzdJcG4TeiFFHljAB68U0BvJ4b0CXWhYKLsFYXlcidHBAxgAgfWnaf4O0fUpbe4hmu0spRIpSUgOrL3zjkVg/wDCb60JFcSwhlzgiFR1/CoG8W6w12tx9pAdEZFAQBQD146UaAbmo+CY7O0sxE7yXFzdeUrBgVZDyCPwqn4n8OWFhZC70qWSaKKY29xvOdr49hWbB4r1i3ht4UuQUt2LRbkB2kgjv9TVKPV72KzurQS5huiGlVgDuIOc+xzRdAUu4oyfSkA5qTFQykZhHJoxTiPmqxZxwSXIW5k8uLBJYUxFetmxOjiBftO7zCBngnHrT20bT8Erq8OP7p69M+uKrIsUMV0sf75t4SJsfeNNJ3sJ7FqU6GLlCgkMWTkBSOM/4Vl3n2c3s32TP2fcfLz1xV+0E/22GO9sxHG52rlTyfxNZZA3n61U48rsKLurigCpFjdhlUJ+gpBxWzpl7MloY40hwCQS8gUkc9j25NRa7KMgwyDhkYHOORUZXFdLeX93cSGdktshxJxKDggAcD8K55juycdaGrCTIaeI3YZCMfoKTFbmnX1wtmqxQxFQNuWfaTznP600rgzEMbggFGBPbFNxW/cXV0cTNbxfIrdHyeawQc80NWGmJT1ikYfKjH6Cm10Gn3l0kMLxWsbBBj5mxn3IoSuLYwfLcHGw+vSm4rcuZbuNTNJaIAqkEg561i9eaGg3G1KsMjDIjYj2FMxiuitr+4MC7beDHUZfBH4UJXA58qy5BUg9cEUVr3txcLHM7QQhZECEryR+NZAx+FFrAJjNO8mTGRG+PoaFbYwYDJBziujjvr0jctlEQU2j5uxFCVwehznluM5UjHXI6UVq301ysDia2RFkI5U5xWXRawAASaeIJcZ8t/8Avk0QuY5kcLkhgQPWuj+23zJJ/ocJEnU7x659aErgzmyjAElTjOKTFaeoXNwIDFPBGgd9wK4yD+FZoo2AACTgDPsKd5EhGRG+D/s1JaymG6jkVQzKchW6Gt77Zf8AleWLS3xuDZ8wZ/nQlcHoc2UYAHacHvjikxVy/ecFUmRFyxYbCCMn6VUpAABJwAT9KcYJcf6t8fQ1Y0+Z4LxWRFYkEEPwuDxyfxrc+3XnlInk2XynOfM56Y55ppXQHMbSMEjg9M0tXtRuJmW3t5kjURKwBjPBzz24qiOKBihS3QZpxhkUZaNh9RVvS7ia3uH8lEZpEMZLnAGffPXitiW81CWIR+RZqFDAETL36/xc0JCehzJVlPzKR35FFW9QnmkmSOdUDRoFGwggj6iqtAx6xu33VJ+gpTFIv3kYA9MitHS76eFGghihbJyTK+0fTkgVeu7rUL0KGjslIxgrcJ2Hu1CVwZz5RlxlSM+ooxVu/vZrmURzKqtFnleQcn1yQfwqpQIVYnflUY/QUrQSIcMjKc45HetPTb65jt2t4o7cruLZmfbnIx3IBq7d3uo3colf7ArBw+VuE6jH+17DpTSA5wqR1BH1FJirFzLJLLiXG5Bt46YHv3qDrSGOWCRxlY2P0FBhkUgFGBPQEVtabqd3FB5cSWoAAGZnClvQjJGalubq+uJI5SbFTGSfluE5z/wL2p2Fc55lZThgQfQ0lWLu5e7uXlkUK/CkDpwMf0qCkMcsErDKxsfoKQwyBsFGz9K3dP1S9WJRELNQihQJpVQnHQ4YjNMnnvZGWQyWIKKR8t0nIP8AwKnYVzCZGViGBBHUGm1Yurlrq5klkXbITgjBGMcd6gpDDPFOzTeKXioYykRyaAKftGTS7RVCIwXztwu0d+9XrV0+ztGbhYZPNV1ZkJ6Ajt9arAClC8ihaO4rdDUhuA15bzXerJJFDIH2rC4Jx+FZCgg0/aDz3oxVSk5O7BRSVkOAqwrNKq4uVgKjbtZCc8nnIB9ahUZqUKMUk3F3Q7J7gUfbk6jGfYRtz+lQt82WwRkng1MVAFRkUSk5bsEktiLFTNK8mGWdYeACpQnp34FN2jFG2iMnF3Qmk9xcyD5mvkYA5KiM5Pt0qLJYltuMknHpT9tGKJSct2CVhgFWGleRmeOdIgxzsZCSP0qPaKcFojJxd0DSe4oeVCHe5SQDkosZBP6VGASMkYqTbzS7QKJScndsErbEaHy3V8ZKnOPWpWcyEut0ke452GMkj9KbtzRtyM5ojJx1Q+VMTe8fztOsuMgIsZBPHrimY4p+3ml24olJvcErDUbypFfbu2kHHrS75pG+W4RFJzyh4/SlK9aNopxk47CcUwJkiLbp1nBUqAqEYPr0pMU4LxSgCk229QSsLDJ5EokK7gM8fhTQZiABdIv/AGzP+FLj3oCg04zlHZg4p7kbNIMh5PN3YAwuMc0oBqTYCaMUm29WCVhI38snjhlK5xnGR1qRVZ251FUHr5JpoXjNG0c1Uako/CwcU9xsq7WUef5+TncEKhQAfX603FSbRRtqW76sLDreQJ5kbHasyhDJtzs+ZWzj/gP61OY4y3/IXwPX7O1VttKVGAfWqjOUVaLsDinuE5CkQrP9oG4uZdhXqAMYP0qLFSbBQVFS3d3YyS2kXDQPJ5SuQ3mbd23Ge341ZMMZP/IaAHtbmqWwUpQYqo1JxVkxOKe6EnwGWIS+cEyfN27d2faowKl8sYpNgzU3GT2rqy+Q8wgAbeJSm7sRjH41Z8hTn/idKP8Atgf8aoBAacEFUqk4qydhcqerCVsuse7zBEuwSYxv+YnOPxpmKftFG2puOxNbMrjy5Lk22zlXEe/dn8anMURBH9tyD/t2/wDr1S296AtUqk0rJ6C5U9WEsnmPj+FBsVsY3Ad6ZTtopdvFQMs2zpIoWS7e1Ma7QyRb94yT6jHWnSRwshH9uXH0+zdf/Hqq7e2aCoxVqpNKyeguVPUZJKZpGcrjnAz3HrTTUhUUwiouUWoXSdF33r2jRqEwsW/cMk56j1olgiaJgdcmbOfl+z9fb71VSBTSBVqpJKyZPKr3FmmNzM8zJtLsWxn3qOnUd6gY0Dmn7T6UmOadt96ljP/Z"
+	}
+	Texture: 77621264, "Texture::ID19", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::ID19"
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID19"
+		}
+		Media: "Video::ID19"
+		FileName: "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\__.jpg"
+		RelativeFilename: "model\__.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 77648368, "Texture::ID43", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::ID43"
+		Properties70:  {
+			P: "COLLADA_ID", "KString", "", "", "ID43"
+		}
+		Media: "Video::ID43"
+		FileName: "C:\Users\joehu\Downloads\3d\servers\dae\SEDNA 19 1U RACK MOUNTED USB HUB\model\___0.jpg"
+		RelativeFilename: "model\___0.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	AnimationStack: 77322112, "AnimStack::Take 001", "" {
+	}
+	AnimationLayer: 77319936, "AnimLayer::Layer0", "" {
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::SketchUp, Model::RootNode
+	C: "OO",77562720,0
+	
+	;AnimLayer::Layer0, AnimStack::Take 001
+	C: "OO",77319936,77322112
+	
+	;Model::skp_camera_Last_Saved_SketchUp_View, Model::SketchUp
+	C: "OO",77454848,77562720
+	
+	;Model::group_0, Model::SketchUp
+	C: "OO",77605968,77562720
+	
+	;Model::group_1, Model::SketchUp
+	C: "OO",77632560,77562720
+	
+	;NodeAttribute::skp_camera_Last_Saved_SketchUp_View, Model::skp_camera_Last_Saved_SketchUp_View
+	C: "OO",77457104,77454848
+	
+	;Material::_0136_Charcoal, Model::group_0
+	C: "OO",77003328,77605968
+	
+	;Material::edge_color353535255, Model::group_0
+	C: "OO",77608224,77605968
+	
+	;Geometry::ID4, Model::group_0
+	C: "OO",77608864,77605968
+	
+	;Model::ID16, Model::group_0
+	C: "OO",77618448,77605968
+	
+	;Material::_0136_Charcoal, Model::ID16
+	C: "OO",77003328,77618448
+	
+	;Material::__, Model::ID16
+	C: "OO",77620704,77618448
+	
+	;Material::edge_color353535255, Model::ID16
+	C: "OO",77608224,77618448
+	
+	;Geometry::ID16, Model::ID16
+	C: "OO",77622544,77618448
+	
+	;Texture::ID19, Material::__
+	C: "OP",77621264,77620704, "DiffuseColor"
+	
+	;Video::ID19, Texture::ID19
+	C: "OO",77293392,77621264
+	
+	;Material::_0136_Charcoal, Model::group_1
+	C: "OO",77003328,77632560
+	
+	;Material::edge_color353535255, Model::group_1
+	C: "OO",77608224,77632560
+	
+	;Geometry::ID32, Model::group_1
+	C: "OO",77634816,77632560
+	
+	;Model::ID40, Model::group_1
+	C: "OO",77642000,77632560
+	
+	;Material::_0136_Charcoal, Model::ID40
+	C: "OO",77003328,77642000
+	
+	;Material::___0, Model::ID40
+	C: "OO",77635824,77642000
+	
+	;Material::edge_color353535255, Model::ID40
+	C: "OO",77608224,77642000
+	
+	;Geometry::ID40, Model::ID40
+	C: "OO",77638880,77642000
+	
+	;Texture::ID43, Material::___0
+	C: "OP",77648368,77635824, "DiffuseColor"
+	
+	;Video::ID43, Texture::ID43
+	C: "OO",77294032,77648368
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,46186158000
+		ReferenceTime: 0,46186158000
+	}
+}
